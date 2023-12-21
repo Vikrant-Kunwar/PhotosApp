@@ -9,7 +9,7 @@ import androidx.lifecycle.ViewModel
 
 class MainViewModel: ViewModel() {
 
-    var listSize by mutableIntStateOf(0)
+    var listSize by mutableIntStateOf(4)
         private set
 
     var firstImageUri by mutableStateOf<Uri?>(null)
